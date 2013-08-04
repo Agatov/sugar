@@ -7,11 +7,11 @@ default_environment['GEM_PATH']= '/usr/local/lib/ruby/gems/1.9.1'
 
 set :rails_env, 'production'
 set :branch, 'master'
-set :application, 'jomalome'
+set :application, 'sugar'
 
 default_run_options[:pty] = true
 set :normalize_asset_timestamps, false
-set :repository, "git@github.com:Agatov/jomalome.git"  # Your clone URL
+set :repository, "git@github.com:Agatov/sugar.git"  # Your clone URL
 set :scm, :git
 set :deploy_via, :remote_cache
 set :bundle_gemfile,  'Gemfile'
